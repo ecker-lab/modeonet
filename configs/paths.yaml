@@ -1,0 +1,13 @@
+data:
+  train_paths: 
+    - <..>/D50k_complex_field_0.h5
+    - <..>/D50k_complex_field_1.h5
+    - <..>/D50k_complex_field_2.h5
+    - <..>/D50k_complex_field_3.h5
+    - <..>/D50k_complex_field_4.h5
+    - <..>/D50k_complex_field_5.h5
+  num_workers: 8
+  in_memory : false
+  test_path : <...>/D500_edit.h5
+log:
+  save_path: "<...>/experiments"

@@ -1,0 +1,19 @@
+--extra-index-url https://download.pytorch.org/whl/cu128
+numpy
+torch
+torchvision
+torchaudio
+matplotlib
+ipykernel
+timm==0.9
+tensordict
+yacs
+torchinfo==1.8
+jupyter==1.0
+scipy
+wandb
+h5py
+hdf5plugin
+pytest
+torchinterp1d==1.1
+pandas

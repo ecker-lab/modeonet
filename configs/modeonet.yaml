@@ -1,0 +1,53 @@
+model:
+  type: ModeONet
+  scaling_factor: 32
+  compile: true
+  n_peaks: 16
+  temporal_dim : 128
+  query_conditioning : film
+  linear_rep : False
+
+
+epochs: 500
+
+loss:
+  weights:
+    pixel_l2: 1.
+    aux_sparse : 0.002
+    phase : .1
+
+data:
+  batch_size: 64
+  dataset_limit: null
+  train_eval_split: 0.9
+  train_drop_last: True
+  random_flip: true
+  noise: 0.
+
+precision: 32
+
+gradient_max: 100
+
+mixed_precision: true
+
+log:
+  run_name: modeonet
+
+optimizer:
+  type: AdamW
+  lr: 5e-4
+  weight_decay: 0.001
+
+scheduler:
+  type: CosLRWarmup
+  cycle_length: 450
+  min_lr: 1e-5
+  warmup_epochs: 50
+  warmup_lr: 1e-5
+
+
+loss_scheduler:
+  type: Sparse
+  min_val : 0.0001
+  max_val : 0.002
+  max_epoch : 250

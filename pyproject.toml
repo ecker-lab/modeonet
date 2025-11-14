@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vibromodes"
+authors = [
+    {name = "Christian Libner", email = "christian.libner@stud.uni-goettingen.de"},
+]
+description = "Predicting velocity fields with a mode superposition"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+]
+dynamic = ["version"]
+
+
+[tool.setuptools.packages]
+find = {}  # Scanning implicit namespaces is active by default

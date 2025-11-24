@@ -4,7 +4,7 @@
 
 ![ModeONet](./docs/overview_figure.jpg)
 
-This is the repo with code for the *Predicting Eigenmode Decompositions in Vibroacoustic Systems* paper (Link to pdf, to be added). 
+This is the repo with code for the *Predicting Eigenmode Decompositions in Vibroacoustic Systems* paper available on [openreview](https://openreview.net/forum?id=8KwIJIrHBt). 
 The **ModeONet** uses the mode superposition to predict the velocity field of vibrating plate with a indentation pattern. It learns both the structure-dependent mode shapes and the frequency-dependent coefficients required to reconstruct the system’s velocity field.
 
 

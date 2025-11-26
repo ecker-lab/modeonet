@@ -15,7 +15,7 @@ This repository includes the implementation of ModeONet and an example notebook.
 ## 🗎 Data
 
 We split the training dataset into multiple files.
-You can download them from [this Google Drive link](https://drive.google.com/drive/folders/1KuCCZvYJB8Yml3L5Pw6pQaNcCoFfrbTn?usp=sharing).
+You can download them from [this Google Drive link](https://drive.google.com/drive/folders/1KuCCZvYJB8Yml3L5Pw6pQaNcCoFfrbTn?usp=sharing). Alternately, the data is available from [this data repository](https://doi.org/10.25625/XMYQHO).
 
 The test dataset is the same as used in
 [**Guided Flow Matching Design Optimization for Minimal Structural Vibrations**](https://arxiv.org/abs/2506.15263)
